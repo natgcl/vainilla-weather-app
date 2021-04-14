@@ -11,7 +11,8 @@
 </head>
 <body>
     <div class="container">
-    <div class="weather-app ">
+    <div class="weather-app">
+        <div class="overview"> 
    <h1>
        New York
    </h1> 
@@ -23,11 +24,16 @@
            Clear
        </li>
    </ul>
+ </div>
    <div class="row">
     <div class="col-6">
+        <div class="clearfix weather-temperature"> 
         <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" 
-        alt="cloudy">
-        12 Cº|Fº
+        alt="cloudy"
+        class="float-left">
+        <strong> 12</strong>
+        <span class="units"> Cº|<a href="#">Fº</a> </span>
+    </div>
     </div>
     <div class="col-6">
        <ul>
@@ -41,12 +47,14 @@
                 Wind 2km/h
             </li>
        </ul> 
-    <small>
-<a href="https://github.com/natgcl/vainilla-weather-app" target="_blank" >
+   </div>
+ <small>
+<a 
+href="https://github.com/natgcl/vainilla-weather-app" target="_blank" >
  Open Source code,</a> by Nat GCL 
   </small>
-</div>
-</div>
+ </div> 
+
    <script src="src/index.js"></script>
 </body>
 </html>
