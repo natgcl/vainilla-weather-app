@@ -38,6 +38,10 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+li:first-letter {
+  text-transform: capitalize;
+}
 li {
   list-style: none;
   color: rgb(135, 135, 135);
